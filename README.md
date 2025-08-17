@@ -65,7 +65,6 @@ Registrar o aprendizado prático e teórico em desenvolvimento iOS, com foco em:
 ## <img src="https://img.icons8.com/ios-glyphs/24/000000/link--v1.png" alt="links" /> Referências
 
 - [TIC em Trilhas – Mackenzie](https://computacao.mackenzie.br/tic-em-trilhas/trilhas/)  
-- [Apple Developer Academy | Mackenzie](https://developeracademy.mackenzie.br)  
 - [Swift.org](https://swift.org/)  
 - [Apple Developer](https://developer.apple.com/)
 
