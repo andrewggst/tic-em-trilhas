@@ -1,7 +1,7 @@
 # TIC em Trilhas
 
 Este repositório reúne os projetos e exercícios desenvolvidos ao longo dos cursos realizados no **TIC em Trilhas**.  
-O objetivo é organizar sua jornada de aprendizado em desenvolvimento **iOS**, design e programação com **Swift**.
+O objetivo é organizar minha jornada de aprendizado em desenvolvimento **iOS**, design e programação com **Swift**.
 
 ---
 
