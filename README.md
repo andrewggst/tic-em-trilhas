@@ -16,7 +16,7 @@ Conteúdos principais:
 - Estruturas condicionais (`if`, `else if`, `else`, `switch`)  
 - Laços de repetição (`while`, `for‑in`, `repeat‑while`), controle de fluxo com `break` e `continue`  
 - Funções (parâmetros, retorno, escopo), vetores (arrays), iteração, optionals, `if let` e `guard let` para validação segura  
-- Projeto integrador: definição de algoritmo, implementação, refinamento, testes e entrega :contentReference[oaicite:0]{index=0}
+- Projeto final: To Do List simples para terminal, com funcionalidades para listar, adicionar, remover, editar e definir prioridades nas tarefas.
 
 ### **Foundation iOS**  
 Introdução prática ao desenvolvimento de apps para iOS.  
@@ -25,7 +25,7 @@ Conteúdos principais:
 - Uso do Xcode: criação de projetos, simuladores, debug em dispositivos reais  
 - SwiftUI: estruturas de interface (Views, Stacks, Images, Buttons), gerência de estado (`State`), navegação (`NavigationStack`), listas (`List`), abas (`TabView`), inputs de usuário :contentReference[oaicite:1]{index=1}  
 - Diretrizes de design (Human Interface Guidelines), prototipagem e apresentações  
-- Mini‑challenge: desenvolvimento de um app prático como aplicação dos conhecimentos adquiridos :contentReference[oaicite:2]{index=2}
+- Projeto final: desenvolvimento de um app
 
 ## <img src="https://img.icons8.com/ios-glyphs/24/000000/folder-invoices--v1.png" alt="folder" /> Organização do Repositório
 
