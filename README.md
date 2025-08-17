@@ -55,8 +55,7 @@ Registrar o aprendizado prático e teórico em desenvolvimento iOS, com foco em:
 
 ## <img src="https://img.icons8.com/ios-glyphs/24/000000/error--v1.png" alt="notice" /> Avisos
 
-- O repositório contém códigos desenvolvidos durante atividades educacionais.  
-- Alguns projetos podem estar incompletos ou em estado de protótipo.  
+- Este repositório reúne códigos criados durante meus estudos, voltados para aprendizado e prática.
 - Este repositório **não garante compatibilidade imediata com ambientes Apple**, pois não foi testado fora do ambiente dos cursos.  
 - Recomendado para fins de estudo, referência e documentação.
 
