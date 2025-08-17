@@ -12,27 +12,19 @@ func adicionar (lista: [String], tarefa: String) -> [String] {
     return listaCopia
 }
 
-func remover (lista: [String], tarefa: String) -> [String]{
+func remover(lista: [String], tarefa: String) -> [String] {
     var listaCopia = lista
-    var indice: Int = 0
-    for i in 0..<listaCopia.count {
-        if listaCopia[i] == tarefa {
-            indice = i
-        }
+    if let indice = listaCopia.firstIndex(of: tarefa) {
+        listaCopia.remove(at: indice)
     }
-    listaCopia.remove(at: indice)
     return listaCopia
 }
 
-func editar (lista: [String], tarefa: String, tarefaEditada: String) -> [String]{
+func editar(lista: [String], tarefa: String, tarefaEditada: String) -> [String] {
     var listaCopia = lista
-    var indice: Int = 0
-    for i in 0..<listaCopia.count {
-        if listaCopia[i] == tarefa {
-            indice = i
-        }
+    if let indice = listaCopia.firstIndex(of: tarefa) {
+        listaCopia[indice] = tarefaEditada
     }
-    listaCopia[indice] = tarefaEditada
     return listaCopia
 }
 
