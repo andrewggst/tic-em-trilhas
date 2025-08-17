@@ -1,3 +1,5 @@
+// As funções auxiliares (listar, adicionar, remover, etc.) estão em functions.swift
+
 var lista: [String] = []
 var opcao: String = "1"
 repeat {
@@ -13,13 +15,13 @@ repeat {
     """
     )
     print("Opção: ", terminator: "")
-    guard let opcaoOptinal = readLine() else{
+    guard let opcaoStr = readLine() else{
         print("\n[ERRO] Entrada inválida")
         print("")
         print("(Finalizando programa...)")
         break
     }
-    opcao = opcaoOptinal
+    opcao = opcaoStr
     switch opcao {
         case "0":
             print("(Finalizando programa...)")
@@ -46,7 +48,7 @@ repeat {
             if lista.count == 0 {
                 print("[ERRO] Lista vazia")
             }else {
-                print("Digite a tarefa à ser exluída: ", terminator: "")
+                print("Digite a tarefa a ser excluída: ", terminator: "")
                 guard let tarefa = readLine() else {
                     print("[ERRO] Entrada inválida")
                     continue
@@ -60,13 +62,13 @@ repeat {
             break
         case "4":
             if lista.count != 0 {
-                print("Digite a tarefa à ser editada: ", terminator: "")
+                print("Digite a tarefa a ser editada: ", terminator: "")
                 guard let tarefa = readLine() else {
                     print("[ERRO] Entrada inválida")
                     continue
                 }
                 if lista.contains(tarefa) {
-                    print("Digite a edição à ser feita: ", terminator: "")
+                    print("Digite a edição a ser feita: ", terminator: "")
                     guard let tarefaEditada = readLine() else {
                         print("[ERRO] Entrada inválida")
                         continue
@@ -80,22 +82,19 @@ repeat {
         case "5":
             if lista.count != 0 {
                 print("Digite o número da prioridade: ", terminator: "")
-                guard let indiceOptinal = readLine(),
-                      let indice = Int(indiceOptinal) else {
-                    print("[ERRO] Entrada inválida")
-                    continue
-                }
-                if indice < 1 || indice - 1 > lista.count {
+                guard let indiceStr = readLine(),
+                      let indice = Int(indiceStr) else {
                     print("[ERRO] Entrada inválida")
                     continue
                 }
                 print("Digite o número da nova prioridade: ", terminator: "")
-                guard let indiceOptinal = readLine(),
-                      let indiceNovo = Int(indiceOptinal) else {
+                guard let indiceStr = readLine(),
+                      let indiceNovo = Int(indiceStr) else {
                     print("[ERRO] Entrada inválida")
                     continue
                 }
-                if indiceNovo < 1 || indiceNovo - 1 > lista.count {
+                if (indiceNovo < 1 || indiceNovo > lista.count) ||
+                   (indice < 1 || indice > lista.count) {
                     print("[ERRO] Entrada inválida")
                     continue
                 }
