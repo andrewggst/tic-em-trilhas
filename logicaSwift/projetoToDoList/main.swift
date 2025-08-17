@@ -1,3 +1,4 @@
+var lista: [String] = []
 var opcao: String = "1"
 repeat {
     print("""
